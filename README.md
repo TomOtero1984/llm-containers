@@ -1,32 +1,13 @@
-# 🔧 Project: GitHub Profile README
+# 🔧 llm-containers
 
-This repository contains the personal GitHub profile README for **Tom Otero**.
+## Overview
 
-## 📄 Overview
+llm-containers seeks to create a minimal containerized environment for hosting tiny llm models.
 
-The goal of this README is to present a professional, honest, and technically grounded overview of Tom's background, interests, and active projects — without falling into buzzword traps or bloated fluff. It highlights engineering philosophy, current work, and contact links.
+## Status
 
-## 🧠 Featured Projects
+Successfully containerized Ollama in Ubuntu.
 
-- **ConC** – Symbolic compression format for GPTs; think cognitive machine code.
-- **C‑More** – A Smalltalk-powered live `.so` prototyping environment for C.
-- **PHPn’t** – Browser-first, server-last runtime isolation model for ultra-secure app logic.
+## Next Steps
 
-## 📁 Contents
-
-- `README.md` – The main GitHub profile content (used in GitHub’s profile repo).
-- `installation.md` – Supporting instructions or onboarding material (optional).
-
-## 🚧 Status
-
-This is an evolving document. Updates will reflect new projects, priorities, and philosophies as they emerge.
-
-## 📫 Contact
-
-Tom Otero  
-📍 Brooklyn, NY  
-✉️ [tomotero1984@gmail.com](mailto:tomotero1984@gmail.com)
-
----
-
-> “I believe the client is capable.”  
+Create custom Buildroot kernel with the bare minimum components needed to run a container engine (likely podman).
