@@ -1,0 +1,24 @@
+version: "3"
+
+services:
+  ollama:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ollama-server
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_models:/models
+    restart: unless-stopped
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
+
+volumes:
+  ollama_models:
+    driver: local
